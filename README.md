@@ -14,11 +14,11 @@ Note that the observations tensor has been edited to not include the height scan
 
 Here is the current configuration of the locomotion policies:
 
-![RL Control FlowChart](https://github.com/gabearod2/go2_rl_ws/blob/main/images/RL%20CONTROL.jpeg)
+![RL Control FlowChart](https://github.com/GiovanniPerantoni/go2_rl_ws.git/blob/main/images/RL%20CONTROL.jpeg)
 
 Here is the current configuration of the navigation policies:
 
-![RL Navigation FlowChart](https://github.com/gabearod2/go2_rl_ws/blob/main/images/RL%20NAVIGATION.jpeg)
+![RL Navigation FlowChart](https://github.com/GiovanniPerantoni/go2_rl_ws.git/blob/main/images/RL%20NAVIGATION.jpeg)
 
 ## Setup
 
@@ -27,7 +27,7 @@ Before setup, ensure you have installed [ROS2 Humble](https://docs.ros.org/en/hu
 To start, clone this repository into your ROS2 workspaces directory:
 ```bash
 cd ~/workspaces
-git clone --recurse-submodules https://github.com/eppl-erau-db/go2_rl_ws
+git clone --recurse-submodules https://github.com/GiovanniPerantoni/go2_rl_ws.git
 ```
 
 Resolving dependencies:
