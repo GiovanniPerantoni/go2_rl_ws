@@ -17,7 +17,7 @@ class WirelessControl(Node):
             10)
         self.subscription = self.create_subscription(
             WirelessController,
-            '/wirelesscontroller',
+            '/wiredcontroller',
             self.wireless_controller_callback,
             10)
         self.twist = Twist()
